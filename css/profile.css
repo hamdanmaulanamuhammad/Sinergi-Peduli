@@ -1,0 +1,79 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #2c3e50;
+  }
+  .profile-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c3e50;
+  }
+  .profile-info h2 {
+    margin: 10px 0;
+    color: #2c3e50;
+  }
+  .profile-info p {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  .contact-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contact-info a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  .story-life {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  .story-life h3 {
+    text-align: center;
+  }
+  .story-life .profile-pic-container {
+    text-align: center;
+  }
+  .story-life .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .story-life .profile-info {
+    text-align: center;
+  }
+  .story-life .profile-info h2 {
+    margin: 10px 0;
+    color: black;
+  }
+  .story-life .profile-info p {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  .story-life .contact-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .story-life .contact-info a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
